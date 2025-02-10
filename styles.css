@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Oxygen", serif;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+    color: #fff;
+}
+.container {
+    max-width: 800px;
+    width: 90%;
+    background: rgb(19, 18, 18);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 #ffc600;
+}
+.container h1 {
+    color: #ffc600;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.question-div {
+    font-size: 20px;
+    border-bottom: 20px;
+}
+.option {
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 17px;
+    background: transparent;
+    color: #fff;
+    border: 1px solid rgb(83, 83, 83);
+    border-radius: 5px;
+}
+.buttons-div {
+    display: flex;
+    flex-direction: row;
+    justify-content:  center;
+    gap: 50px;
+    margin-top: 30px;
+}
+.buttons-div button {
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 17px;
+    background: #ffc600;
+    border: none;
+}
+.buttons-div .next-btn {
+    background: transparent;
+    border: 1px solid #ffc600;
+    color: #fff;
+}
+.next-btn:hover {
+    background: #ffc600;
+    color: #050305;
+}
+
+
+@media (max-width: 768px) {
+    .buttons-div button {
+        padding: 10px 20px;
+
+    }
+    .buttons-div {
+        gap: 30px;
+    }
+}

@@ -4,8 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz App</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <div class="container">
+        <h1>Quiz App</h1>
+        <div class="question-div">
+            <p id="question">What is human anatomy?.</p>
+        </div>
+        <div class="options">
+            <button class="option">Option 1</button>
+            <button class="option">Option 2</button>
+            <button class="option">Option 3</button>
+            <button class="option">Option 4</button>
+        </div>
+        <div id="score" style="display: none"></div>
+        <div class="buttons-div">
+            <button class="next-btn" style="display: none">Next</button>
+            <button class="restart-btn" style="display: none">Restart Quiz</button>
+        </div>
+    </div>
+
+    <script src="quiz-questions.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
