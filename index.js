@@ -40,6 +40,7 @@ function checkAnswer(selectedBtn, selectedOption) {
 
     allButtons.forEach((btn) => btn.disabled = true);
     nextBtn.style.display = "block";
+    restartBtn.style.display = "block";
 }
 
 function nextQuestion() {
